@@ -1,0 +1,11 @@
+# macOS
+.DS_Store
+._*
+
+# 图标制作的中间产物（可由 ./make_icon.sh 重新生成）
+WindowSeeker.iconset/
+
+# 编译中间物
+*.o
+*.dSYM/
+build/
